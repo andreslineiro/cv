@@ -1,0 +1,116 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+body{
+    background: url(/cv/img/fondo.png);
+}
+  
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 90%;
+}
+
+#principal {
+    width: 33%;
+    background-color: #dbd8d8;
+    text-align: center;
+}
+
+#sidebar {
+    width: 60%;
+    margin-left: 15px;
+}
+
+fieldset{
+    border: solid 1px rgb(33, 124, 222);
+    margin: 5px 2px 12px 3px;
+    font-size: 15px;
+}
+
+#field{
+   margin-top: 80px;
+}
+
+legend{
+    border: solid 1px;
+    padding: 5px;
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+ul li{
+    text-align: left;
+}
+
+ul li i{
+    text-align: left;
+}
+
+img#RegresarCV{
+    margin: -10px 81% 1px -2px;
+    float: left;
+    width: 11%;
+}
+div#Regresar{
+    margin: 10px 10% 1px -2px;
+    width: 100%;
+}
+#yo{
+    border: solid 2px;
+    border-radius: 9%;
+    margin: 10px auto;
+   
+}
+
+h1{
+    margin: 10px auto;
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+    margin: 5px -0px 1px 3px;
+}
+
+footer{
+    margin-top: 1%;
+    text-align: center;
+    background-color: #cccccc;
+}
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 29px;
+    }
+    p{
+        font-size: 12px;
+        text-align: left;
+    }
+    footer.pie{
+        text-align: center;
+        background-color: #cccccc;
+        margin-top: 100vh;
+    }
+    img#RegresarCV{
+        margin: -10px 64% 1px -2px;
+        float: left;
+        width: 23%;
+    }
+    div#Regresar{
+        margin: 10px 10% 1px -2px;
+        width: 100%;
+    }
+    fieldset{
+        border: solid 1px rgb(33, 124, 222);
+        margin: 26px 2px 0px 3px;
+        font-size: 12px;
+    }
+
+  }

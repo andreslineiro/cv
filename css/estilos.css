@@ -1,0 +1,90 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(33, 124, 222);
+    
+}
+#inicio{
+    padding: 5px;
+    margin: 15px auto ; 
+    width: 90%;
+    background-color: rgb(238, 235, 235);
+}
+
+body{
+    background: url(/cv/img/fondo.png);
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: table;
+    margin-top: 20px;
+}
+div#titulo{
+    margin: 51px -499px 1px 1px;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin:1px 68px 0px 45px;
+}
+div#menu{
+    margin: -23px 0px 24px 458px;
+}
+
+nav{
+    text-align: center;
+}
+ul{
+    float: left;
+}
+
+
+a{
+    text-decoration-line: none;
+}
+a.RegresarInd:hover{
+    border:solid  rgb(167, 166, 166);
+    background-color:white;
+    border-top-width: 1px;
+    border-right-width: 3px;
+    border-bottom-width:3px;
+    border-left-width: thin;
+    border-bottom: 200%;
+    border-radius: 20px;
+    white-space:break-spaces;
+    float: left;
+}
+footer.pie{
+    text-align: center;
+    background-color: #cccccc;
+}
+#video1{
+    float: none;
+    margin: 0 0 2% 15%;
+}
+#video2{
+    float: right;
+    margin: -22% 15% 0 15%;
+
+}
+@media screen and (max-width: 500px) {
+    #video1{
+        float: left;
+        margin:5% 15% 2% 9%;
+    }
+    #video2{
+        float: right;
+        margin:-2% 10% 2% 15%;
+    }
+    iframe{
+        border-radius: 20px;
+        border: 9px solid;
+    }
+    footer.pie{
+        text-align: center;
+        background-color: #cccccc;
+        margin-top: 100vh;
+    }
+  }

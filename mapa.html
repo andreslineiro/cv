@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div id="showMap" style="width: 450px; height: 350px;">
+<script>
+function showGoogleMaps()
+    {
+        //Creamos el punto a partir de la latitud y longitud de una dirección:
+        var point = new google.maps.LatLng('-41.24856259867889', '-68.70278967383547');
+     
+        //Configuramos las opciones indicando zoom, punto y tipo de mapa
+        var myOptions = {
+            zoom: 15, 
+            center: point, 
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+     
+        //Creamos el mapa y lo asociamos a nuestro contenedor
+        var map = new google.maps.Map(document.getElementById("showMap"),  myOptions);
+     
+        //Mostramos el marcador en el punto que hemos creado
+        var marker = new google.maps.Marker({
+            position:point,
+            map: map,
+            title: "Localización de Maquinchao - Río negro"
+        });
+    }
+    showGoogleMaps();</script>
+</div>
+</body>
+</html>
